@@ -55,7 +55,8 @@
 
     ví dụ:
         - git remote add <shortname> <url> // git remote add origin URL
-
+        - $ git remote set-url <remote_name> <ssh_remote_url> // change URL git remote set-url origin <new_ssh_remote_url> 
+        - git remote -v // check current URL of git
 ## git push 
     - Khi đã kết nối giữa local và dịch vụ lưu trữ git, chúng ta cần sử dụng lệnh git push để đồng bộ những thay đổi được commit trên local lên dich vụ lưu trữ.
 
